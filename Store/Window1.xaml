@@ -1,0 +1,22 @@
+﻿<Window x:Class="Store.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Store"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="79,10,0,0" Text="Warehouse" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Width="467"/>
+        <ListBox x:Name="Code" Margin="79,138,522,138" Background="#FFDDDDDD"/>
+        <ListBox x:Name="Quantity" Margin="278,138,454,138" Background="#FFDDDDDD"/>
+        <TextBlock HorizontalAlignment="Left" Margin="79,117,0,0" Text="Code" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.438,0.697" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="278,117,0,0" Text="Quantity" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.938,0.374" FontSize="14"/>
+        <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Margin="680,384,0,0" VerticalAlignment="Top" Width="81" Click="Back_Click"/>
+        <ListBox x:Name="Name" Margin="346,138,308,138" Background="#FFDDDDDD"/>
+        <ListBox x:Name="Category" Margin="492,138,109,138" Background="#FFDDDDDD"/>
+        <TextBlock HorizontalAlignment="Left" Margin="346,117,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.438,0.697" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="492,117,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.438,0.697" FontSize="14"/>
+
+    </Grid>
+</Window>
